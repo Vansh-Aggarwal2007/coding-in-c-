@@ -5,7 +5,7 @@ class Employee {
     private:
     int id;
     public setId (int id) {
-        id = id;
+        // id = id;
         this-> id = id;
     }
 };
@@ -24,9 +24,10 @@ class Box {
     }
 };
 
+
 int main () {
     Box myBox;
     myBox.setWidth(10.5).setHeight(5.2);
 
-    
+
 }
